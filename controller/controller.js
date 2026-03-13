@@ -15,6 +15,10 @@ let usuario =  [
     }
 ]
 
+app.get("/", (req, res) => {
+    res.send("Olá")
+})
+
 app.get("/usuario", (req, res) => {
     res.json(usuario)
 })

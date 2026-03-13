@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const controller = require("./controller/controller.js")
 
-app.use("/api", controller)
+app.use("/", controller)
 
 const PORT = 3055;
 
